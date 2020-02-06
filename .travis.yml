@@ -1,3 +1,2 @@
 language: node_js
 node_js: - "node"
-after_success: - git config --global user.name "safwans" - git config --global user.email "safwans@gmail.com" - git remote rm origin - git remote add origin https://safwans:628afb0c5fc49de718980706c50141e31ddf6a31@github.com/safwans/lighthouse-ci.git - npm run deploy
